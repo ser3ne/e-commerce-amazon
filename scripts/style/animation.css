@@ -1,0 +1,17 @@
+.search-icon {
+  transform: translateY(0px);
+  transition: transform .2s ease-in;
+}
+
+.search-bar {
+  transition: background-color 1s ease;
+}
+
+.search-bar:hover {
+  background-color: rgb(241, 238, 101);
+}
+
+
+.search-icon:hover {
+  transform: translateY(-1px);
+}
