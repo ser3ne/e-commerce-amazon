@@ -4,14 +4,35 @@
 }
 
 .search-bar {
-  transition: background-color 1s ease;
+  transition: background-color .3s ease;
 }
 
 .search-bar:hover {
-  background-color: rgb(241, 238, 101);
+  background-color: #feae34;
 }
 
 
 .search-icon:hover {
   transform: translateY(-1px);
+}
+
+/* rgb(0, 115, 255) */
+.pulse-ao {
+  outline-width: thick;
+  border: 2px solid#FF9900;
+  transition: background-color 0.3s ease, outline-color 0.3s ease;
+}
+
+.pulse-ao:hover {
+  color: white;
+  background-color: #FF9900;
+  outline-color: #FF9900;
+}
+
+.card {
+  transition: outline-color 0.3s ease;
+}
+
+.card:hover {
+  outline-color: #FF9900;
 }
