@@ -1,0 +1,190 @@
+/* extra-small */
+@media (min-width: 320px) {
+
+  .nav-anchor {
+    width: 70%;
+  }
+
+  .search-bar-container {
+    padding-top: 1px;
+    width: 50%;
+    margin-right: 5%;
+  }
+
+  .search-input {
+    width: 77%;
+  }
+
+  .search-icon-container {
+    width: 20%;
+  }
+
+  .search-icon {
+    padding: 20%;
+  }
+
+  .list-items {
+    display: none;
+  }
+
+  .card {
+    width: 40%;
+  }
+
+  .stars-image {
+    width: 50%;
+  }
+
+  .card-name {
+    font-size: 0.7em;
+  }
+
+  .stars-rating {
+    font-size: 0.7em;
+  }
+
+  .ratings-count {
+    font-size: 0.3em;
+  }
+
+  .product-price {
+    font-size: 0.7em;
+  }
+
+  .product-stock {
+    font-size: 0.3em;
+  }
+
+  .cta-text {
+    font-size: 0.8em;
+  }
+
+  /*  */
+  .row {
+    flex-wrap: wrap;
+  }
+}
+
+/* small breakpoint */
+@media (min-width: 480px) {
+  .list-items {
+    display: none;
+  }
+
+  .search-bar-container {
+    padding-top: 0px;
+  }
+
+  .search-input {
+    width: 78%;
+  }
+
+  .search-icon {
+    padding: 15%;
+  }
+
+  .card {
+    width: 48%;
+  }
+
+  .card-name {
+    font-size: 1.3em;
+  }
+
+  .stars-rating {
+    font-size: 1em;
+  }
+
+  .ratings-count {
+    font-size: 0.6em;
+  }
+
+  .product-price {
+    font-size: 1em;
+  }
+
+  .product-stock {
+    font-size: 0.6em;
+  }
+
+  .cta-text {
+    font-size: 0.8em;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+}
+
+
+/* medium Breakpiont */
+@media (min-width: 768px) {
+  .list-items {
+    display: flex;
+  }
+
+  .search-bar-container {
+    width: 85%;
+  }
+
+  .search-input {
+    width: 78%;
+  }
+
+  .container {
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .card {
+    width: 32%;
+  }
+
+  .cta-text {
+    font-size: 1em;
+  }
+
+}
+
+/* large breakpoint */
+@media (min-width: 1279px) {
+  .list-items {
+    display: flex;
+  }
+
+  .search-input {
+    width: 84%;
+  }
+
+  .search-icon-container {
+    width: 15%;
+  }
+
+  .nav-anchor {
+    width: 40%;
+  }
+
+  .search-icon {
+    padding: 7%;
+  }
+
+  .card {
+    width: 24%;
+  }
+
+}
+
+/* extra-large breakpoint */
+@media (min-width: 1400px) {
+  .list-items {
+    display: flex;
+  }
+
+  .card {
+    width: calc(12% - 2px);
+  }
+
+}

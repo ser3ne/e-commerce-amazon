@@ -3,12 +3,14 @@
   transition: transform .2s ease-in;
 }
 
-.search-bar {
-  transition: background-color .3s ease;
+.search-bar-container {
+  transition: background-color .3s ease, outline-color 0.3s ease;
+
 }
 
-.search-bar:hover {
+.search-bar-container:hover {
   background-color: #feae34;
+  outline-color: #feb13d;
 }
 
 
@@ -16,7 +18,15 @@
   transform: translateY(-1px);
 }
 
-/* rgb(0, 115, 255) */
+.search-icon-container {
+  transition: background-color 0.3s ease;
+}
+
+.search-icon-container:hover {
+  background-color: #feae34;
+
+}
+
 .pulse-ao {
   outline-width: thick;
   border: 2px solid#FF9900;
